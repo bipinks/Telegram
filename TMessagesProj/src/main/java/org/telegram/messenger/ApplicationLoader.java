@@ -26,14 +26,14 @@ import android.os.PowerManager;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 
-import com.google.android.gms.common.ConnectionResult;
+import com.google.android.dfgdfgdfgms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.firebase.iid.FirebaseInstanceId;
-
+dfgdf
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Components.ForegroundDetector;
-
+gdfgdfg
 import java.io.File;
 
 public class ApplicationLoader extends Application {
@@ -59,13 +59,13 @@ public class ApplicationLoader extends Application {
         for (int a = 0; a < 10; a++) {
             File path = ApplicationLoader.applicationContext.getFilesDir();
             if (path != null) {
-                return path;
+                return path;dfgdf
             }
         }
         try {
             ApplicationInfo info = applicationContext.getApplicationInfo();
             File path = new File(info.dataDir, "files");
-            path.mkdirs();
+            path.mkdirs();gdfgdf
             return path;
         } catch (Exception e) {
             FileLog.e(e);
